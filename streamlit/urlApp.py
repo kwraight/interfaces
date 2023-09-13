@@ -11,5 +11,6 @@ if st.button("Time check"):
 if st.checkbox("embedded?"):
     components.iframe("https://docs.streamlit.io/library/components/components-api", width=800, height=600, scrolling=True)
 
+st.write("One more time!")
 
 st.write("Tot ziens!")
